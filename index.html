@@ -28,9 +28,9 @@
         </div>
        
         <ul class="d-flex justify-content-center align-items-between flex-column mt-5">
-            <li class="mb-2" v-for="list in lists">
+            <li  v-for="list in lists">
 
-                <div v-if="list.done===null">
+                <div class="mb-2" v-if="list.done===null">
                     <span v-if="list.executive===null" v-on:click="list.executive=true">
                         {{list.text}}
                     </span>
