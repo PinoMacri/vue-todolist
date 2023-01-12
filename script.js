@@ -23,7 +23,7 @@ const app = Vue.createApp({
     },
     methods: {
         addTask(){
-          if(this.dinamicList){
+        
             const newTask = {
               text: this.dinamicList,
               done: null,
@@ -31,7 +31,7 @@ const app = Vue.createApp({
             }
             this.lists.push(newTask);
             this.dinamicList = '';
-          }
+          
         },
     }
 })
