@@ -1,0 +1,13 @@
+li {
+    background-color: gray;
+    list-style-type: none;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+li div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
